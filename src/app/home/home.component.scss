@@ -1,0 +1,21 @@
+.card {
+    border: 1px solid rgb(0, 89, 255);
+    width: 18rem;
+    text-align: center;
+
+    img {
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    .viewBtn {
+        width: 50%;
+    }
+}
+
+.menu-cards {
+    margin-top: 50px; 
+    width: 60%; 
+    margin: auto;
+    justify-content: center;
+}
