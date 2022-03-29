@@ -12,6 +12,7 @@ import { UsersComponent } from './users/users.component';
 import { AccountComponent } from './account/account.component';
 import { UserDetailsComponent } from './user-details/user-details.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { NavbarComponent } from './navbar/navbar.component';
     UsersComponent,
     AccountComponent,
     UserDetailsComponent,
-    NavbarComponent
+    NavbarComponent,
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,

@@ -21,7 +21,7 @@
               </a>
             </li>
           </ul>
-          <button class="btn btn-outline-danger" type="button" routerLink="/login">Logout</button>
+          <button class="btn btn-outline-danger" type="button" (click)="logout()" *ngIf="authService.isLoggedIn">Logout</button>
         </form>
       </div>
     </div>
